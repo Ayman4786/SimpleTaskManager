@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5500";  // ✅ This is correct!
+const BASE_URL = ("http://localhost:5500");  // ✅ This is correct!
  // Flask usually runs here
 
 const taskForm = document.getElementById('TaskForm');
