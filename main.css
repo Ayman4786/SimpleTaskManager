@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lato&display=swap');
+
+body{
+    font-family:'Cabin',sans-serif;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+input,button{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 8px;
+}
+
+input:placeholder-shown{
+    font-size: 1.2rem;
+}
+
+li{
+    text-align: left;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: #808080;
+}
